@@ -27,7 +27,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // Start Video Activity
-        Intent intent = new Intent(this, VideoActivity.class);
+        //Intent intent = new Intent(this, VideoActivity.class);
+        //startActivity(intent);
+
+        Intent intent = new Intent(this, QuestionActivity.class);
         startActivity(intent);
     }
 }
