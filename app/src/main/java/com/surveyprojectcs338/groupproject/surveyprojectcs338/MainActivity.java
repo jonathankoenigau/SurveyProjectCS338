@@ -1,5 +1,6 @@
 package com.surveyprojectcs338.groupproject.surveyprojectcs338;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
@@ -20,13 +21,13 @@ import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
 
-    public static string VIDEO_URL_EXTRA =
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
+        // Start Video Activity
+        Intent intent = new Intent(this, VideoActivity.class);
+        startActivity(intent);
     }
 }
