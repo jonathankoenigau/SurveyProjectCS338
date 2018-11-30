@@ -13,6 +13,12 @@
         android:layout_height="wrap_content"
         android:text="TextView" />
 
+    <ImageView
+        android:id="@+id/rickImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/rick" />
+
     <EditText
         android:id="@+id/questionEditText"
         android:layout_width="match_parent"
@@ -22,9 +28,88 @@
         android:text="@string/questionTextboxDefault"
         android:visibility="visible" />
 
+    <RadioGroup
+        android:id="@+id/questionRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/questionRadioButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="RadioButton" />
+
+        <RadioButton
+            android:id="@+id/questionRadioButton2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="RadioButton" />
+
+        <RadioButton
+            android:id="@+id/questionRadioButton3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="RadioButton" />
+
+        <RadioButton
+            android:id="@+id/questionRadioButton4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="RadioButton" />
+
+        <RadioButton
+            android:id="@+id/questionRadioButton5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="RadioButton" />
+
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/questionCheckBox1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="CheckBox" />
+
+    <CheckBox
+        android:id="@+id/questionCheckBox2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="CheckBox" />
+
+    <CheckBox
+        android:id="@+id/questionCheckBox3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="CheckBox" />
+
+    <CheckBox
+        android:id="@+id/questionCheckBox4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="CheckBox" />
+
+    <CheckBox
+        android:id="@+id/questionCheckBox5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="CheckBox" />
+
     <Button
-        android:id="@+id/button"
+        android:id="@+id/questionButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Button" />
+
 </LinearLayout>
