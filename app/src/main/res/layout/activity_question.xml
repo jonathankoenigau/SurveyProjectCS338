@@ -25,8 +25,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="@string/questionTextboxDefault"
-        android:visibility="visible" />
+        android:text="@string/questionTextboxDefault" />
 
     <RadioGroup
         android:id="@+id/questionRadioGroup"
@@ -110,6 +109,6 @@
         android:id="@+id/questionButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:text="Next" />
 
 </LinearLayout>
