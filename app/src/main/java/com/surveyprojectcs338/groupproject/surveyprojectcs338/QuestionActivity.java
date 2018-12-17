@@ -116,6 +116,7 @@ public class QuestionActivity extends AppCompatActivity {
                         mRickImage.setVisibility(View.GONE);
 
                         mEditText.setVisibility(View.VISIBLE);
+                        mEditText.setText("");
 
                         mRadioGroup.setVisibility(View.GONE);
 
@@ -132,6 +133,7 @@ public class QuestionActivity extends AppCompatActivity {
                         mEditText.setVisibility(View.GONE);
 
                         mRadioGroup.setVisibility(View.VISIBLE);
+                        mRadioGroup.clearCheck();
 
                         mRadio1.setVisibility(View.GONE);
                         mRadio2.setVisibility(View.GONE);

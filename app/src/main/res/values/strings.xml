@@ -1,4 +1,4 @@
 <resources>
     <string name="app_name">SurveyProjectCS338</string>
-    <string name="questionTextboxDefault">Input Answer</string>
+    <string name="questionTextboxDefault"></string>
 </resources>
